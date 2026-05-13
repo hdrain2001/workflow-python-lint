@@ -9,5 +9,5 @@ def is_palindrome(text):
 
 def count_vowels(text):
     """Count vowels in a string."""
-    vowels = "aeiouAEIOU3"
+    vowels = "aeiouAEIOU"
     return sum(1 for char in text if char in vowels)
